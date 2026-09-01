@@ -1,0 +1,32 @@
+name: blur_check
+description: >-
+  Offline image blur and sharpness detection for Flutter using classical
+  image processing. No ML Kit, no network — on-device quality checks for
+  camera and document capture flows.
+version: 0.1.0
+homepage: https://github.com/iZenrix/blur-check
+repository: https://github.com/iZenrix/blur-check
+issue_tracker: https://github.com/iZenrix/blur-check/issues
+
+topics:
+  - blur
+  - image
+  - camera
+  - sharpness
+  - image-quality
+
+environment:
+  sdk: ^3.11.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^4.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
