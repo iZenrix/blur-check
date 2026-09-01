@@ -108,10 +108,7 @@ class _DemoPageState extends State<DemoPage> {
     final result = _result;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('blur_check'),
-        centerTitle: false,
-      ),
+      appBar: AppBar(title: const Text('blur_check'), centerTitle: false),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
